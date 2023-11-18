@@ -1,0 +1,75 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-list {
+    display: flex;
+    max-width: 800px;
+    margin: 14px auto;
+    flex-wrap: wrap;
+}
+
+.container-list article {
+    display: block;
+    width: 50%;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container-list img {
+    display: block;
+    width: 800px;
+    max-width: 100%;
+    max-height: 1000px;
+    object-fit: cover;
+}
+
+.container-list h2 {
+    background-color: #116FEB;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.container-list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #116FEB;
+    text-decoration: none;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.5s;
+}
+
+.container-list a:hover {
+    background-color: #fff;
+    color: #116FEB;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wrapper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationComponent {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
