@@ -1,7 +1,7 @@
 {
   "name": "cartazflix",
   "version": "0.1.0",
-  "homepage": "src/index.js",
+  "homepage": "src/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
