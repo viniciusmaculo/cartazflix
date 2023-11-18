@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cartazflix/*/static/css/main.1340c127.css",
-    "main.js": "/cartazflix/*/static/js/main.19472ca1.js",
-    "index.html": "/cartazflix/*/index.html",
-    "main.1340c127.css.map": "/cartazflix/*/static/css/main.1340c127.css.map",
-    "main.19472ca1.js.map": "/cartazflix/*/static/js/main.19472ca1.js.map"
+    "main.css": "/cartazflix/static/css/main.1340c127.css",
+    "main.js": "/cartazflix/static/js/main.036e82cd.js",
+    "index.html": "/cartazflix/index.html",
+    "main.1340c127.css.map": "/cartazflix/static/css/main.1340c127.css.map",
+    "main.036e82cd.js.map": "/cartazflix/static/js/main.036e82cd.js.map"
   },
   "entrypoints": [
     "static/css/main.1340c127.css",
-    "static/js/main.19472ca1.js"
+    "static/js/main.036e82cd.js"
   ]
 }
