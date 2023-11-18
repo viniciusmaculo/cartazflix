@@ -22,18 +22,22 @@
     display: block;
     width: 800px;
     max-width: 100%;
-    max-height: 1000px;
+    max-height: 500px;
     object-fit: cover;
 }
 
 .container-list h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #116FEB;
     color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 10px;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    min-height: 98px;
 }
 
 .container-list a {
@@ -73,3 +77,9 @@
     height: 20px;
     margin: 1px;
 }
+
+@media (max-width: 480px) {
+    .container-list img {
+        max-height: 200px;
+    }
+  }
