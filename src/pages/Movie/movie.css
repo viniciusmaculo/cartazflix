@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin: 0 3px;
 }
 
 .wrapper-buttons button {
@@ -37,7 +38,7 @@
 }
 
 .wrapper-buttons button:hover {
-    transform: scale(1.07);
+    transform: scale(1.05);
 }
 
 .wrapper-buttons a {
