@@ -75,7 +75,7 @@ function Movie(){
       <div className='wrapper-buttons'>
         <button onClick={saveMovie}>Salvar</button>
           <button>
-            <a href={`https://www.youtube.com/results?search_query=Trailer ${movie.title}`} target='blank' rel='external'>
+            <a href={`https://www.youtube.com/results?search_query=Trailer ${movie.title}`} target='_blank' rel='external'>
               Trailer
             </a>
           </button>    
