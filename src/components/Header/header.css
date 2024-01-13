@@ -13,15 +13,23 @@ Header {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: transform 0.5s;
 }
 
 .logo:hover {
-    font-size: 1.05rem;
+    transform: scale(1.05);
 }
 
 .favorites button {
     cursor: pointer;
     padding: 5px;
     border-radius: 4px;
-    color: #000;
+    cursor: pointer;
+    border: 0;
+}
+
+.favorites button:hover {
+    background-color: #116FEB;
+    color: #fff;
+    transition: all 0.5s;
 }
