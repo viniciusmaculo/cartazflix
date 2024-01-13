@@ -7,7 +7,7 @@ function Error() {
             <h1>Ops, parece que essa página não existe!</h1>
             <br/>
             <span>Encontramos essa página:</span> <br/>
-            <Link to={"/cartazflix"} className="error-link">Home</Link>
+            <Link to={"/"} className="error-link">Home</Link>
         </div>
     );
 };
