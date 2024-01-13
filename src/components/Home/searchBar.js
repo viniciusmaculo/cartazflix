@@ -7,15 +7,23 @@ const SearchBar = ({ onSearch }) => {
     onSearch(searchQuery);
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
+
   return (
-    <div>
+    <div className='wrapper-searchBar'>
       <input
         type="text"
         placeholder="Pesquisar filmes..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
+        onKeyDown={handleKeyDown}
+        className='searchBar'
       />
-      <button onClick={handleSearch}>Pesquisar</button>
+      <button onClick={handleSearch} className='searchBar-button'>Pesquisar</button>
     </div>
   );
 };

@@ -7,6 +7,7 @@ Header {
     padding: 0.5rem;
     width: 100%;
     height: 60px;
+    box-shadow: 0 2px 7px 2px #00000057;
 }
 
 .logo {
