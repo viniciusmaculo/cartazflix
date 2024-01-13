@@ -97,7 +97,7 @@ function Home() {
         <div className="container">
 
             <div className="container-header">
-            <SearchBar onSearch={handleSearch} /> {/* Adicione o componente de busca aqui */}
+            <SearchBar onSearch={handleSearch} /> 
 
             <div className="wrapper-pagination">
             <PaginationSelector itensPerPage={itensPerPage} setItensPerPage={setItensPerPage} />
@@ -111,7 +111,10 @@ function Home() {
                     return (
                         <article key={item.id}>
                             <h2>{item.title}</h2>
-                            <img src={`https://image.tmdb.org/t/p/original${item.poster_path}`} alt="item.title"/>
+                            <img 
+                                src={`https://image.tmdb.org/t/p/original${item.poster_path}`} 
+                                alt="item.title"
+                            />
                             <Link to={`/movie/${item.id}`}>Acessar</Link>
                         </article> 
                     )     

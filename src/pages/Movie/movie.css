@@ -37,8 +37,9 @@
 }
 
 .wrapper-buttons button:hover {
-    background-color: #116FEB;
+    background-color: #1B2B47;
     color: #fff;
+
 }
 
 .wrapper-buttons a {
@@ -47,6 +48,6 @@
     transition: all 0.5s;
 }
 
-.wrapper-buttons a:hover {
+.wrapper-buttons:hover a {
     color: #fff;
 }

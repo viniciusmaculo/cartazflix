@@ -29,7 +29,7 @@ Header {
 }
 
 .favorites button:hover {
-    background-color: #116FEB;
+    background-color: #1B2B47;
     color: #fff;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
