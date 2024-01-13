@@ -41,6 +41,9 @@
 
 .movie-options button {
     cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    border: 0;
 }
 
 .movie-link {
